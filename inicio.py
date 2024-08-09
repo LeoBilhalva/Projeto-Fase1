@@ -82,17 +82,117 @@ import math
 # valor1 = int(input("Digite o primeiro valor: "))
 # valor2 = int(input("Digite o segundo valor: "))
 # valor3 = int(input("Digite o terceiro valor: "))
-
 # maior = valor1
 # if(valor2 > maior): maior = valor2
 # if(valor3 > maior): maior = valor3
-
 # menor = valor1
 # if(valor2 < menor): maior = valor2
 # if(valor3 < menor): maior = valor3
-
 # meio = valor1+valor2+valor3 - maior - menor
 # print("Crescente:",menor,meio,maior)
 # print("Decrescente:",maior,meio,menor)
 
+##Ordem Crescente 4 valores - 1
+# valor1 = int(input("Digite o primeiro valor: "))
+# valor2 = int(input("Digite o segundo valor: "))
+# if(valor2<valor1):
+#     cache = valor1
+#     valor1 = valor2
+#     valor2 = cache
+# valor3 = int(input("Digite o terceiro valor: "))
+# if(valor3<valor1):
+#     cache = valor2
+#     valor2 = valor1
+#     valor1 = valor3
+#     valor3 = cache
+# elif(valor3<valor2):
+#     cache = valor2
+#     valor2 = valor3
+#     valor3 = cache
+# valor4 = int(input("Digite o quarto valor: "))
+# if(valor4<valor1):
+#     cache = valor2
+#     valor2 = valor1
+#     valor1 = valor4
+#     valor4 = valor3
+#     valor3 = cache
+# elif(valor4<valor2):
+#     cache = valor2
+#     valor2 = valor4
+#     valor4 = valor3
+#     valor3 = cache
+# elif(valor4<valor3):
+#     cache = valor3
+#     valor3 = valor4
+#     valor4 = cache
+# print(valor1, valor2, valor3, valor4)
 
+##Ordem Crescente 4 valores - 2
+# valor1 = int(input("Digite o primeiro valor: "))
+# valor2 = int(input("Digite o segundo valor: "))
+# valor3 = int(input("Digite o terceiro valor: "))
+# valor4 = int(input("Digite o quarto valor: "))
+# if(valor4<valor3): 
+#     cache = valor3
+#     valor3 = valor4
+#     valor4 = cache
+# if(valor3<valor2): 
+#     cache = valor2
+#     valor2 = valor3
+#     valor3 = cache
+# if(valor2<valor1):
+#     cache = valor1
+#     valor1 = valor2
+#     valor2 = cache
+# if(valor4<valor3):
+#     cache = valor3
+#     valor3 = valor4
+#     valor4 = cache
+# if(valor3<valor2):
+#     cache = valor2
+#     valor2 = valor3
+#     valor3 = cache
+# if(valor4<valor3):
+#     cache = valor3
+#     valor3 = valor4
+#     valor4 = cache
+# print(valor1, valor2, valor3, valor4)
+
+##Preço de venda
+# custo = float(input("Digite o custo do produto: "))
+# if(custo<10): venda = custo*70/100+custo
+# if(custo>=10 and custo<30): venda = custo*50/100+custo
+# if(custo>=30 and custo<50): venda = custo*40/100+custo
+# if(custo>=50): venda = custo*30/100+custo
+# print("\nPreço de venda: ",venda)
+
+##Media ponderada
+# nota1 = float(input("Digite a primeira nota: "))
+# nota2 = float(input("Digite a segunda nota: "))
+# nota3 = float(input("Digite a terceira nota: "))
+# if(nota2>nota1):
+#     cache = nota1
+#     nota1 = nota2
+#     nota2 = cache
+# if(nota3>nota1):
+#     cache = nota1
+#     nota1 = nota3
+#     nota3 = cache
+# print("Media: ", (nota1*5+nota2*2.5+nota3*2.5)/(5+2.5+2.5))
+
+##Bhaskara
+# a = float(input("Digite o valor de a: "))
+# b = float(input("Digite o valor de b: "))
+# c = float(input("Digite o valor de c: "))
+# delta = b**2 - 4*a*c
+# if(delta<0 or a == 0): print("Erro, delta negativo ou divisão por 0")
+# else:
+#     x1 = (-b + math.sqrt(delta))/(2*a)
+#     x2 = (-b - math.sqrt(delta))/(2*a)
+#     print(x1, x2)
+
+##Saldo e limite
+# saldo = float(input("Informe seu saldo médio: "))
+# if(saldo<500): print("Não há limite.")
+# elif(saldo>=500 and saldo<1000): print("Limite: ", saldo*8/100)
+# else: print("Limite: ", saldo*15/100)
