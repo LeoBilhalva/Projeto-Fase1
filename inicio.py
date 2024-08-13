@@ -231,36 +231,39 @@ import math
 #             print("Muito frio.")
 
 ##Seleção aninhada
-
-n1 = float(input("Digite a primeira nota: "))
-n2 = float(input("Digite a segunda nota: "))
-n3 = float(input("Digite a terceira nota: "))
-
-if(n1 > 10 or n2 > 10 or n3 > 10):
-    print("Valor inválido.")
-else:
-    if(n1 < 0 or n2 < 0 or n3 < 0):
-        print("valor inválido")
-    else:
-        g1 = (n1+n2+n3)/3
-        if(g1 >= 7):
-            print("Aluno aprovado!")
-        else:
-            if(g1<4):
-                print("Aluno reprovado!")
-            else:
-                n1 = float(input("Digite a primeira nota: "))
-                n2 = float(input("Digite a segunda nota: "))
-                n3 = float(input("Digite a terceira nota: "))
-                if(n1 > 10 or n2 > 10 or n3 > 10):
-                    print("Valor inválido.")
-                else:
-                    if(n1 < 0 or n2 < 0 or n3 < 0):
-                        print("valor inválido")
-                    else:
-                        g2 = (n1+n2+n3)/3
-                        media = (g1 + g2) / 2
-                        if(media > 5):
-                            print("Aluno aprovado em grau 2!")
-                        else:
-                            print("Aluno reprovado em grau 2!")
+# n1 = float(input("Digite a primeira nota: "))
+# n2 = float(input("Digite a segunda nota: "))
+# n3 = float(input("Digite a terceira nota: "))
+# freq = float(input("Qual a frequencia do aluno? "))
+# if(freq<0.75):
+#     print(f"Reprovado por faltas! frequencia: {freq}")  
+# else:
+#     if(n1 > 10 or n2 > 10 or n3 > 10):
+#         print("Valor inválido.")
+#     else:
+#         if(n1 < 0 or n2 < 0 or n3 < 0):
+#             print("valor inválido")
+#         else:
+#             g1 = (n1+n2+n3)/3
+#             if(g1 >= 7):
+#                 print(f"Aluno aprovado! Media: {g1}")
+#             else:
+#                 if(g1<4):
+#                     print("Aluno reprovado!")
+#                 else:
+#                     print("Reprovado G1!")
+#                     n1 = float(input("Digite a primeira nota: "))
+#                     n2 = float(input("Digite a segunda nota: "))
+#                     n3 = float(input("Digite a terceira nota: "))
+#                     if(n1 > 10 or n2 > 10 or n3 > 10):
+#                         print("Valor inválido.")
+#                     else:
+#                         if(n1 < 0 or n2 < 0 or n3 < 0):
+#                             print("valor inválido")
+#                         else:
+#                             g2 = (n1+n2+n3)/3
+#                             media = (g1 + g2) / 2
+#                             if(media >= 5):
+#                                 print(f"Aluno aprovado em grau 2! Media grau 2: {media}")
+#                             else:
+#                                 print("Aluno reprovado em grau 2!")
