@@ -260,4 +260,7 @@ else:
                     else:
                         g2 = (n1+n2+n3)/3
                         media = (g1 + g2) / 2
-                        if(media >)
+                        if(media > 5):
+                            print("Aluno aprovado em grau 2!")
+                        else:
+                            print("Aluno reprovado em grau 2!")
