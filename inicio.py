@@ -196,3 +196,37 @@ import math
 # if(saldo<500): print("Não há limite.")
 # elif(saldo>=500 and saldo<1000): print("Limite: ", saldo*8/100)
 # else: print("Limite: ", saldo*15/100)
+
+##Seleção aninhada - Quantas raizes?
+# a = int(input("Digite o valor de A: "))
+# b = int(input("Digite o valor de B: "))
+# c = int(input("Digite o valor de C: "))
+# delta = b*b - 4*a*c
+# if((delta) < 0):
+#     print("\nNão há raizes")
+# else:
+#     if((delta) == 0):
+#         x = -b/(2*a)
+#         print(f"Possui uma raiz, que é {x}")
+#     else:
+#         x = (-b + math.sqrt(delta))/(2*a)
+#         y = (-b - math.sqrt(delta))/(2*a)
+#         print(f"Tem duas raizes, que são: {x}, {y}")
+
+##Seleção aninhada - Condições climáticas
+# temp = float(input("Digite a temperatura: "))
+# if(temp>30):
+#     humid = float(input("Qual a humidade? "))
+#     if(humid > (60/100)):
+#         print("Tempo quente e humido.")
+#     else:
+#         print("Tempo quente.")
+# else:
+#     if(temp<=30 and temp>=20):
+#         print("Ameno.")
+#     else:
+#         if(temp<20 and temp>=10):
+#             print("Frio.")
+#         else:
+#             print("Muito frio.")
+
