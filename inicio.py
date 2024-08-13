@@ -230,3 +230,34 @@ import math
 #         else:
 #             print("Muito frio.")
 
+##Seleção aninhada
+
+n1 = float(input("Digite a primeira nota: "))
+n2 = float(input("Digite a segunda nota: "))
+n3 = float(input("Digite a terceira nota: "))
+
+if(n1 > 10 or n2 > 10 or n3 > 10):
+    print("Valor inválido.")
+else:
+    if(n1 < 0 or n2 < 0 or n3 < 0):
+        print("valor inválido")
+    else:
+        g1 = (n1+n2+n3)/3
+        if(g1 >= 7):
+            print("Aluno aprovado!")
+        else:
+            if(g1<4):
+                print("Aluno reprovado!")
+            else:
+                n1 = float(input("Digite a primeira nota: "))
+                n2 = float(input("Digite a segunda nota: "))
+                n3 = float(input("Digite a terceira nota: "))
+                if(n1 > 10 or n2 > 10 or n3 > 10):
+                    print("Valor inválido.")
+                else:
+                    if(n1 < 0 or n2 < 0 or n3 < 0):
+                        print("valor inválido")
+                    else:
+                        g2 = (n1+n2+n3)/3
+                        media = (g1 + g2) / 2
+                        if(media >)
