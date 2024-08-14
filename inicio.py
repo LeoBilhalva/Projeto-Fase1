@@ -376,3 +376,31 @@ import random
 #     print("Elevada.")
 # else:
 #     print("Normal.")
+
+##Ano bissesto
+# ano = int(input("Digite o ano: "))
+# if(ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0)):
+#     print("Ano bissexto.")
+# else:
+#     print("Ano não é bissexto.")
+
+##Ano bissexto nos dias do calendário
+# mes = int(input("Digite o mês 1 - 12: "))
+# ano = int(input("Digite o ano: "))
+# if(mes>12 or mes<1):
+#     print("Mês inválido")
+# elif(mes == 2):
+#     if(ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0)):
+#         dias = 29
+#     else:
+#         dias = 28
+# elif(mes == 4 or mes == 6 or mes == 9 or mes == 11):
+#     dias = 30
+# else:
+#     dias = 31
+# print(f"Quantidade de dias no mês eh: {dias}")
+
+##Calculo do salário liquido
+
+#INSS
+salario = float(input(""))
