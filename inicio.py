@@ -305,3 +305,33 @@ import math
 #             print("Data da páscoa:", dia % 31,"de Abril")
 #         else:
 #             print("Data da páscoa: ", dia, "de Março")
+
+##Dias do calendário - Elif
+# mes = int(input("Digite o mês 1 - 12: "))
+# if(mes>12 or mes<1):
+#     print("Mês inválido")
+# elif(mes == 2):
+#     dias = 28
+# elif(mes == 4 or mes == 6 or mes == 9 or mes == 11):
+#     dias = 30
+# else:
+#     dias = 31
+# print(f"Quantidade de dias no mês eh: {dias}")
+
+## Calculo IMC
+# peso = float(input("Digite o peso (em kg): "))
+# altura = float(input("Digite a altura (em m): "))
+# imc = peso/altura**2
+# if(imc < 18.6):
+#     print("Baixo peso.")
+# elif(imc < 25):
+#     print("Peso ideal.")
+# elif(imc < 30):
+#     print("Sobrepeso")
+# elif(imc < 35):
+#     print("Obesidade grau 1")
+# elif(imc < 40):
+#     print("Obesidade grau 2")
+# else:
+#     print("Obesidade grau 3")
+# print(f"Seu IMC eh {imc}")
