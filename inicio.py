@@ -1,4 +1,5 @@
 import math
+import random
 
 ##Calculos dois numeros
 # a = int(input("Digite o primeiro valor: "))
@@ -335,3 +336,43 @@ import math
 # else:
 #     print("Obesidade grau 3")
 # print(f"Seu IMC eh {imc}")
+
+## Pedra, papél e tesoura
+# jogador = int(input("Escolha:\n1 - Pedra\n2 - Papel\n3 - Tesoura\n"))
+# if(jogador > 3 or jogador < 0):
+#     print("Valor inválido!")
+# else:
+#     computador = random.randint(1,3)
+#     print("Computador escolheu: ", computador)
+#     if(jogador == computador):
+#         print("Deu empate!")
+
+#     elif(jogador == 1):
+#         if(computador == 2):
+#             print("Computador ganhou! ")
+#         else:
+#             print("Jogador ganhou!")
+#     elif(jogador == 2):
+#         if(computador == 3):
+#             print("Computador ganhou! ")
+#         else:
+#             print("Jogador ganhou!")
+#     else:
+#         if(computador == 1):
+#             print("Computador ganhou! ")
+#         else:
+#             print("Jogador ganhou!")
+
+## Pressão
+# sist = int(input("Sistólica: "))
+# diast = int(input("Diastólica: "))
+# if(sist >= 180 or diast >= 120):
+#     print("Crise Hipertensiva.")
+# elif(sist >= 140 or diast >= 90):
+#     print("Hipertensão Estágio 2.")
+# elif(sist >= 130 or diast >= 80):
+#     print("Hipertensão Estágio 1.")
+# elif(sist >= 120):
+#     print("Elevada.")
+# else:
+#     print("Normal.")
