@@ -267,3 +267,41 @@ import math
 #                                 print(f"Aluno aprovado em grau 2! Media grau 2: {media}")
 #                             else:
 #                                 print("Aluno reprovado em grau 2!")
+
+##Seleção aninhada - Notas
+# nota = float(input("Digite a nota do aluno de 0 - 100: "))
+# if(nota>100 or nota < 0):
+#     print("Nota inválida")
+# else:
+#     if(nota >= 90):
+#         print("A")
+#     else:
+#         if(nota >= 80):
+#             print("B")
+#         else:
+#             if(nota >= 70):
+#                 print("C")
+#             else:
+#                 if(nota >= 60):
+#                     print("D")
+#                 else:
+#                     print("F")
+
+##Seleção aninhada - dia da pascoa em um ano específico
+# ano = int(input("Digite um ano entre 1900 e 2099: "))
+# if(ano>2099 or ano<1900):
+#     print("Valor inválido")
+# else:
+#     a = ano % 19
+#     b = ano % 4
+#     c = ano % 7 
+#     d = (19 * a + 24) % 30
+#     e = (2 * b + 4 * c + 6 * d + 5) % 7
+#     dia = 22 + d + e
+#     if(ano == 1954 or ano == 1981 or ano == 2049 or ano == 2076):
+#         dia = dia - 7
+#     else:
+#         if(dia>31):
+#             print("Data da páscoa:", dia % 31,"de Abril")
+#         else:
+#             print("Data da páscoa: ", dia, "de Março")
