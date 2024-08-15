@@ -402,5 +402,44 @@ import random
 
 ##Calculo do salário liquido
 
-#INSS
-salario = float(input(""))
+# salBruto = float(input("Informe o salário bruto: "))
+# qntDependentes = int(input("Quantidade de dependentes: "))
+##INSS
+# if(salBruto <= 1212):
+#     if(salBruto*0.075 > 90.90):
+#         inss = 90.90
+#     else:
+#         inss = salBruto*0.075
+# elif(salBruto <= 2427.35):
+#     if(salBruto*0.09 - 18.18 > 200.28):
+#         inss = 200.28
+#     else:
+#         inss = salBruto*0.09 - 18.18
+# elif(salBruto <= 3641.03):
+#     if(salBruto*0.12 - 91.00 > 345.92):
+#         inss = 345.92
+#     else:
+#         inss = salBruto*0.12 - 91.00
+# else:
+#     if(salBruto*0.14 - 163.82 > 828.39):
+#         inss = 828.39
+#     else:
+#         inss = salBruto*0.14 - 163.82
+# print("INSS: ", inss)
+##IRRF
+# irrf = salBruto - inss - 189.59*qntDependentes
+# if(irrf < 1903.99):
+#     irrf = 0
+# elif(irrf <2826,66):
+#     irrf = irrf * 1.075 - 142.80
+# elif(irrf < 3751.05):
+#     irrf = irrf * 1.150 - 354.80
+# elif(irrf < 4664.68):
+#     irrf = irrf * 1.225 - 636.16
+# else:
+#     irrf = irrf * 1.275 - 869.36
+# print("IRRF: ", irrf)
+# liquido = salBruto - inss - irrf
+# print("Salário líquido: ", liquido)
+
+ 
