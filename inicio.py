@@ -604,13 +604,64 @@ import string
 # else:
 #     print("Senha forte!")
 
-#Iniciais dos nomes
+# Iniciais dos nomes
 # nome = str(input("Digite seu nome: "))
 # iniciais = ""
-
 # for indice in len(nome):
 #     if indice == 0:
 #         iniciais += nome[indice] + ". "
 #     elif nome[indice] == " ":
 #         iniciais += " " + nome[indice+1] + "."
 # print(iniciais)
+
+# Adivinhar número
+# numero = random.randint(1,100)
+# for cont in range(10):
+#     chute = int(input(f"Chute nº {cont+1}: "))
+#     if chute == numero:
+#         print("Acertou!!")
+#         break
+#     elif chute < numero:
+#         print("O nomero é maior que o chute.")
+#     elif chute > numero:
+#         print("O nomero é menor que o chute.")
+# print("Fim de jogo. Numero sorteado: ",numero)
+
+# Estatistica
+# mediaRenda = 0
+# mediaIdadeQnt3filhos = 0
+# Qnt3Filhos = 0
+# mediaFilho = 0
+# mediaHomensIdade = 0
+# homemMaisVelho = 0
+# rendaHomemMaisVelho = 0
+# mulherMaiorRenda = 0
+# idadeMulherMaiorRenda = 0
+# for cont in range(2000):
+#     idade  = random.randint(18,90)
+#     renda  = random.randrange(1000,10000)
+#     sexo  = random.choice(["Homem","Mulher"])
+#     numFilhos = random.randint(0,5)
+#     mediaRenda += renda
+#     mediaFilho += numFilhos
+#     if(numFilhos > 3):
+#         mediaIdadeQnt3filhos += idade
+#         Qnt3Filhos += 1
+#     if(idade<30 and sexo == "Homem"):
+#         mediaHomensIdade += 1
+
+#     if idade > homemMaisVelho and sexo == "Homem":
+#         homemMaisVelho = idade
+#         rendaHomemMaisVelho = renda
+
+#     if renda > mulherMaiorRenda and sexo == "Mulher":
+#         mulherMaiorRenda = renda
+#         idadeMulherMaiorRenda = idade
+
+# print(  "Media renda: ", mediaRenda/(cont+1),
+#       "\nMedia idade quem tem mais de 3 filhos: ", mediaIdadeQnt3filhos//Qnt3Filhos,
+#       "\nQuantidade de homens com menos de 30 anos:", mediaHomensIdade,
+#       "\nMedia numero de filhos:", mediaFilho//(cont+1),
+#       "\nRenda do homem mais velho: ", rendaHomemMaisVelho,
+#       "\nIdade da mulher com maior renda: ", idadeMulherMaiorRenda,"\n") 
+  
