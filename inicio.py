@@ -1,26 +1,26 @@
 import math
 import random
 
-##Calculos dois numeros
+# Calculos dois numeros
 # a = int(input("Digite o primeiro valor: "))
 # b = int(input("Digite o segundo valor: "))
-# print("Soma: ", a+b, 
-#       "\nDiferença: ", a-b, 
-#       "\nMédia: ", (a+b)/2, 
-#       "\nDistancia: ", math.fabs(a-b), 
-#       "\nO maior: ", (a+b+math.fabs(a-b))/2, 
+# print("Soma: ", a+b,
+#       "\nDiferença: ", a-b,
+#       "\nMédia: ", (a+b)/2,
+#       "\nDistancia: ", math.fabs(a-b),
+#       "\nO maior: ", (a+b+math.fabs(a-b))/2,
 #       "\nO Menor: ", (a+b-math.fabs(a-b))/2)
 
-##Mostrar horas, minutos e segundos dos segundos
+# Mostrar horas, minutos e segundos dos segundos
 # segundos = float(input("Informe os segundos em inteiros: "))
 # minutos = segundos//60
 # segundos = segundos%60
 # horas = minutos//60
 # minutos = minutos%60
-# print("Horas: ", horas, 
-#       "\nMinutos: ", minutos, 
+# print("Horas: ", horas,
+#       "\nMinutos: ", minutos,
 #       "\nSegundos: ", segundos)
-##Inverter número
+# Inverter número
 # valor = int(input("Digite um valor de 4 digitos: "))
 # digito1 = valor//1000
 # resto = valor%1000
@@ -30,7 +30,7 @@ import random
 # digito4 = resto%10
 # print(digito4*1000+digito3*100+digito2*10+digito1)
 
-##Calculo peso
+# Calculo peso
 # altura = float(input("Digite a altura: "))
 # sexo = str(input("Digite o sexo (Masculino = M; Feminino = F): "))
 # if(sexo == "F" or sexo == "f"):
@@ -39,7 +39,7 @@ import random
 #     print("Peso ideal masculino: ", 72.7*altura - 58)
 # else: print("Sexo inválido")
 
-##Horário do jogo
+# Horário do jogo
 # hora = int(input("Digite o valor da HORA que INICIOU o jogo: "))
 # minuto = int(input("Digite o valor da MINUTO que INICIOU o jogo: "))
 # inicio = hora*60+minuto
@@ -51,7 +51,7 @@ import random
 # else: duração = fim - inicio
 # print("A duração do jogo foi de",duração//60,"horas e",duração%60,"minutos")
 
-##Número Capicua
+# Número Capicua
 # numero = int(input("Digite 4 digitos inteiros: "))
 
 # if(numero < 1111 and numero > 9999): print("Numero inválido!")
@@ -60,7 +60,7 @@ import random
 #     if(numero == numeroInv): print("Números capicua!:",numero,numeroInv)
 #     else: print("Não são números capcua!",numero,numeroInv)
 
-##Ordem Crescente 3 valores
+# Ordem Crescente 3 valores
 # valor1 = int(input("Digite o primeiro valor: "))
 # valor2 = int(input("Digite o segundo valor: "))
 # if(valor2 < valor1):
@@ -79,7 +79,7 @@ import random
 #     valor3 = cache
 # print(valor1, valor2, valor3)
 
-##Ordem Crescente e decrescente 3 valores
+# Ordem Crescente e decrescente 3 valores
 # valor1 = int(input("Digite o primeiro valor: "))
 # valor2 = int(input("Digite o segundo valor: "))
 # valor3 = int(input("Digite o terceiro valor: "))
@@ -93,7 +93,7 @@ import random
 # print("Crescente:",menor,meio,maior)
 # print("Decrescente:",maior,meio,menor)
 
-##Ordem Crescente 4 valores - 1
+# Ordem Crescente 4 valores - 1
 # valor1 = int(input("Digite o primeiro valor: "))
 # valor2 = int(input("Digite o segundo valor: "))
 # if(valor2<valor1):
@@ -128,16 +128,16 @@ import random
 #     valor4 = cache
 # print(valor1, valor2, valor3, valor4)
 
-##Ordem Crescente 4 valores - 2
+# Ordem Crescente 4 valores - 2
 # valor1 = int(input("Digite o primeiro valor: "))
 # valor2 = int(input("Digite o segundo valor: "))
 # valor3 = int(input("Digite o terceiro valor: "))
 # valor4 = int(input("Digite o quarto valor: "))
-# if(valor4<valor3): 
+# if(valor4<valor3):
 #     cache = valor3
 #     valor3 = valor4
 #     valor4 = cache
-# if(valor3<valor2): 
+# if(valor3<valor2):
 #     cache = valor2
 #     valor2 = valor3
 #     valor3 = cache
@@ -159,7 +159,7 @@ import random
 #     valor4 = cache
 # print(valor1, valor2, valor3, valor4)
 
-##Preço de venda
+# Preço de venda
 # custo = float(input("Digite o custo do produto: "))
 # if(custo<10): venda = custo*70/100+custo
 # if(custo>=10 and custo<30): venda = custo*50/100+custo
@@ -167,7 +167,7 @@ import random
 # if(custo>=50): venda = custo*30/100+custo
 # print("\nPreço de venda: ",venda)
 
-##Media ponderada
+# Media ponderada
 # nota1 = float(input("Digite a primeira nota: "))
 # nota2 = float(input("Digite a segunda nota: "))
 # nota3 = float(input("Digite a terceira nota: "))
@@ -181,7 +181,7 @@ import random
 #     nota3 = cache
 # print("Media: ", (nota1*5+nota2*2.5+nota3*2.5)/(5+2.5+2.5))
 
-##Bhaskara
+# Bhaskara
 # a = float(input("Digite o valor de a: "))
 # b = float(input("Digite o valor de b: "))
 # c = float(input("Digite o valor de c: "))
@@ -192,13 +192,13 @@ import random
 #     x2 = (-b - math.sqrt(delta))/(2*a)
 #     print(x1, x2)
 
-##Saldo e limite
+# Saldo e limite
 # saldo = float(input("Informe seu saldo médio: "))
 # if(saldo<500): print("Não há limite.")
 # elif(saldo>=500 and saldo<1000): print("Limite: ", saldo*8/100)
 # else: print("Limite: ", saldo*15/100)
 
-##Seleção aninhada - Quantas raizes?
+# Seleção aninhada - Quantas raizes?
 # a = int(input("Digite o valor de A: "))
 # b = int(input("Digite o valor de B: "))
 # c = int(input("Digite o valor de C: "))
@@ -214,7 +214,7 @@ import random
 #         y = (-b - math.sqrt(delta))/(2*a)
 #         print(f"Tem duas raizes, que são: {x}, {y}")
 
-##Seleção aninhada - Condições climáticas
+# Seleção aninhada - Condições climáticas
 # temp = float(input("Digite a temperatura: "))
 # if(temp>30):
 #     humid = float(input("Qual a humidade? "))
@@ -231,13 +231,13 @@ import random
 #         else:
 #             print("Muito frio.")
 
-##Seleção aninhada
+# Seleção aninhada
 # n1 = float(input("Digite a primeira nota: "))
 # n2 = float(input("Digite a segunda nota: "))
 # n3 = float(input("Digite a terceira nota: "))
 # freq = float(input("Qual a frequencia do aluno? "))
 # if(freq<0.75):
-#     print(f"Reprovado por faltas! frequencia: {freq}")  
+#     print(f"Reprovado por faltas! frequencia: {freq}")
 # else:
 #     if(n1 > 10 or n2 > 10 or n3 > 10):
 #         print("Valor inválido.")
@@ -269,7 +269,7 @@ import random
 #                             else:
 #                                 print("Aluno reprovado em grau 2!")
 
-##Seleção aninhada - Notas
+# Seleção aninhada - Notas
 # nota = float(input("Digite a nota do aluno de 0 - 100: "))
 # if(nota>100 or nota < 0):
 #     print("Nota inválida")
@@ -288,14 +288,14 @@ import random
 #                 else:
 #                     print("F")
 
-##Seleção aninhada - dia da pascoa em um ano específico
+# Seleção aninhada - dia da pascoa em um ano específico
 # ano = int(input("Digite um ano entre 1900 e 2099: "))
 # if(ano>2099 or ano<1900):
 #     print("Valor inválido")
 # else:
 #     a = ano % 19
 #     b = ano % 4
-#     c = ano % 7 
+#     c = ano % 7
 #     d = (19 * a + 24) % 30
 #     e = (2 * b + 4 * c + 6 * d + 5) % 7
 #     dia = 22 + d + e
@@ -307,7 +307,7 @@ import random
 #         else:
 #             print("Data da páscoa: ", dia, "de Março")
 
-##Dias do calendário - Elif
+# Dias do calendário - Elif
 # mes = int(input("Digite o mês 1 - 12: "))
 # if(mes>12 or mes<1):
 #     print("Mês inválido")
@@ -319,7 +319,7 @@ import random
 #     dias = 31
 # print(f"Quantidade de dias no mês eh: {dias}")
 
-## Calculo IMC
+# Calculo IMC
 # peso = float(input("Digite o peso (em kg): "))
 # altura = float(input("Digite a altura (em m): "))
 # imc = peso/altura**2
@@ -337,7 +337,7 @@ import random
 #     print("Obesidade grau 3")
 # print(f"Seu IMC eh {imc}")
 
-## Pedra, papél e tesoura
+# Pedra, papél e tesoura
 # jogador = int(input("Escolha:\n1 - Pedra\n2 - Papel\n3 - Tesoura\n"))
 # if(jogador > 3 or jogador < 0):
 #     print("Valor inválido!")
@@ -363,7 +363,7 @@ import random
 #         else:
 #             print("Jogador ganhou!")
 
-## Pressão
+# Pressão
 # sist = int(input("Sistólica: "))
 # diast = int(input("Diastólica: "))
 # if(sist >= 180 or diast >= 120):
@@ -377,14 +377,14 @@ import random
 # else:
 #     print("Normal.")
 
-##Ano bissesto
+# Ano bissesto
 # ano = int(input("Digite o ano: "))
 # if(ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0)):
 #     print("Ano bissexto.")
 # else:
 #     print("Ano não é bissexto.")
 
-##Ano bissexto nos dias do calendário
+# Ano bissexto nos dias do calendário
 # mes = int(input("Digite o mês 1 - 12: "))
 # ano = int(input("Digite o ano: "))
 # if(mes>12 or mes<1):
@@ -400,11 +400,11 @@ import random
 #     dias = 31
 # print(f"Quantidade de dias no mês eh: {dias}")
 
-##Calculo do salário liquido
+# Calculo do salário liquido
 
 # salBruto = float(input("Informe o salário bruto: "))
 # qntDependentes = int(input("Quantidade de dependentes: "))
-##INSS
+# INSS
 # if(salBruto <= 1212):
 #     if(salBruto*0.075 > 90.90):
 #         inss = 90.90
@@ -426,7 +426,7 @@ import random
 #     else:
 #         inss = salBruto*0.14 - 163.82
 # print("INSS: ", inss)
-##IRRF
+# IRRF
 # irrf = salBruto - inss - 189.59*qntDependentes
 # if(irrf < 1903.99):
 #     irrf = 0
@@ -442,32 +442,32 @@ import random
 # liquido = salBruto - inss - irrf
 # print("Salário líquido: ", liquido)
 
-##for
-##de 0 a 9
+# for
+# de 0 a 9
 # for cont in range(0,10):
 #     print(cont)
-##de 1 a 10
+# de 1 a 10
 # for cont in range(1,11):
 #     print(cont)
-##de 10 a 1
+# de 10 a 1
 # for cont in range(10,0,-1):
 #     print(cont)
-##de 1 10 pulando duas casas
+# de 1 10 pulando duas casas
 # for cont in range(1,11,2):
 #     print(cont)
 
-##Raiz quadrada de 1 até 50
+# Raiz quadrada de 1 até 50
 # for cont in range(1, 51):
 #     print(f"{cont:2}: {math.sqrt(cont):.3f}")
 
-##Somatório de uma range
+# Somatório de uma range
 # soma = 0
 # num = int(input("Num: "))
 # for cont in range(1,num+1):
 #     soma = soma + cont
 # print(f"Soma: {soma}")
 
-##Metodo de Heron
+# Metodo de Heron
 # num = float(input("Numero: "))
 # raizAprox = 1
 # for cont in range(1,100):
@@ -476,4 +476,92 @@ import random
 #         break
 #     raizAprox = (raizAprox+(num/raizAprox))/2
 #     print(f"{cont}:{raizAprox}")
-    
+
+# Média altura pessoas
+# soma = 0
+# for cont in range(1,4):
+#     altura = float(input(f"Digite a altura da pessoa {cont}: "))
+#     soma = soma + altura
+# print(f"Média das alturas: {soma/3:.2f}")
+
+# Identificar a maior altura
+# maior = 0
+# for cont in range(1,11):
+#     altura = random.uniform(1.5,2)
+#     if altura > maior:
+#         maior = altura
+#         print(f"Maior: {maior}")
+# print(f"Maior altura: {maior:.3f}")
+
+# Estatistica alunos
+# sumIdade = 0
+# qntAlunos = 0
+# maior = 0
+# for cont in range(50):
+#     idade = random.randint(18, 60)
+#     semestre = random.randint(1, 10)
+#     curso = random.choice(["ADS", "Engenharia", "Física"])
+#     sumIdade = sumIdade + idade
+#     if (semestre == 5):
+#         qntAlunos += 1
+#     if (idade > maior):
+#         maior = idade
+#         cursoVeio = curso
+# print(f"Média idades: {sumIdade/50}")
+# print(f"Curso do aluno mais velho: {cursoVeio}, com {maior} anos.")
+# print(f"Quantidade de alunos no quinto semestre: {qntAlunos}")
+
+##Manipulando string
+# frase = "Esta é uma string"
+# final = frase[:5] + "E" +frase[6:]
+# print(final)
+# for cont in range(0,17):
+#     print(f"{cont}, {frase[cont]}")
+
+##Ordem em strings
+# frase1 = "Teste"
+# frase2 = "teste"
+# if(frase1 < frase2):
+#     print(frase1, frase2)
+# elif(frase2 < frase1):
+#     print(frase2, frase1)
+# else:
+#     print("São iguais:", frase1, frase2)
+
+##Contém
+# frase1 = "teste"
+# frase2 = "Isso é apenas um teste"
+# if frase1 in frase2:
+#     print("Verdade!")
+
+##Palíndromo - 1
+# palavra = str(input("Digite a palavra: "))
+# for cont in range(len(palavra)):
+#     if(palavra[cont] != palavra[-cont-1]):
+#         print("Não é palindromo.")
+#         break
+#     elif(len(palavra) == cont+1):
+#         print("É palíndromo")
+# print(palavra)
+# print(palavra[::-1])
+
+##Palíndromo - 2
+# palavra = str(input("Digite a palavra: "))
+# if palavra != palavra[::-1]:
+#     print("Não é palíndromo.")
+# else:
+#     print("É palíndromo")
+
+##Detectar vogais
+# vogais = "aeiouAEIOU"
+# conta = 0
+# palavra = str(input("Digite a palavra: "))
+# for letra in palavra:
+#     if letra not in vogais:
+#         conta += 1
+# print(conta)
+
+#Senha forte
+maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+minuscula = "abcdefghijklmnopqrstuvwxyz"
+numero = "0123456789"
