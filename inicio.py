@@ -1,5 +1,6 @@
 import math
 import random
+import string
 
 # Calculos dois numeros
 # a = int(input("Digite o primeiro valor: "))
@@ -511,14 +512,14 @@ import random
 # print(f"Curso do aluno mais velho: {cursoVeio}, com {maior} anos.")
 # print(f"Quantidade de alunos no quinto semestre: {qntAlunos}")
 
-##Manipulando string
+# Manipulando string
 # frase = "Esta é uma string"
 # final = frase[:5] + "E" +frase[6:]
 # print(final)
 # for cont in range(0,17):
 #     print(f"{cont}, {frase[cont]}")
 
-##Ordem em strings
+# Ordem em strings
 # frase1 = "Teste"
 # frase2 = "teste"
 # if(frase1 < frase2):
@@ -528,13 +529,13 @@ import random
 # else:
 #     print("São iguais:", frase1, frase2)
 
-##Contém
+# Contém
 # frase1 = "teste"
 # frase2 = "Isso é apenas um teste"
 # if frase1 in frase2:
 #     print("Verdade!")
 
-##Palíndromo - 1
+# Palíndromo - 1
 # palavra = str(input("Digite a palavra: "))
 # for cont in range(len(palavra)):
 #     if(palavra[cont] != palavra[-cont-1]):
@@ -545,14 +546,14 @@ import random
 # print(palavra)
 # print(palavra[::-1])
 
-##Palíndromo - 2
+# Palíndromo - 2
 # palavra = str(input("Digite a palavra: "))
 # if palavra != palavra[::-1]:
 #     print("Não é palíndromo.")
 # else:
 #     print("É palíndromo")
 
-##Detectar vogais
+# Detectar vogais
 # vogais = "aeiouAEIOU"
 # conta = 0
 # palavra = str(input("Digite a palavra: "))
@@ -561,7 +562,55 @@ import random
 #         conta += 1
 # print(conta)
 
-#Senha forte
-maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-minuscula = "abcdefghijklmnopqrstuvwxyz"
-numero = "0123456789"
+# Senha forte - 1
+# maiusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# minusculas = "abcdefghijklmnopqrstuvwxyz"
+# numeros = "0123456789"
+# maiuscula = False
+# especial = False
+# numero = False
+# senha = str(input("Digite sua senha: "))
+# for digito in senha:
+#     if(digito in maiusculas):
+#         maiuscula = True
+#     if(digito in numeros):
+#         numero = True
+#     if(digito not in maiusculas and digito not in minusculas and digito not in numeros):
+#         especial = True
+# if(maiuscula == True and numero == True and especial == True):
+#     print("Senha forte!")
+# else:
+#     print("Senha fraca!")
+
+# Senha forte 2
+# maiuscula = False
+# numero = False
+# pontuacao = False
+# senha = str(input("Digite sua senha: "))
+# for digito in senha:
+#     if digito in string.ascii_uppercase:
+#         maiuscula = True
+#     if digito in string.digits:
+#         numero = True
+#     if digito not in string.digits and digito not in string.ascii_letters:
+#         pontuacao = True
+# if maiuscula == False or numero == False or pontuacao == False:
+#     if maiuscula == False:
+#         print("Erro: Senha inválida. Não possui letras maiusculas.")
+#     if numero == False:
+#         print("Erro: Senha inválida. Não possui numeros.")
+#     if pontuacao == False:
+#         print("Erro: Senha inválida. Não possui caractere especial.")
+# else:
+#     print("Senha forte!")
+
+#Iniciais dos nomes
+# nome = str(input("Digite seu nome: "))
+# iniciais = ""
+
+# for indice in len(nome):
+#     if indice == 0:
+#         iniciais += nome[indice] + ". "
+#     elif nome[indice] == " ":
+#         iniciais += " " + nome[indice+1] + "."
+# print(iniciais)
