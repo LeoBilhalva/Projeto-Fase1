@@ -442,4 +442,38 @@ import random
 # liquido = salBruto - inss - irrf
 # print("Salário líquido: ", liquido)
 
- 
+##for
+##de 0 a 9
+# for cont in range(0,10):
+#     print(cont)
+##de 1 a 10
+# for cont in range(1,11):
+#     print(cont)
+##de 10 a 1
+# for cont in range(10,0,-1):
+#     print(cont)
+##de 1 10 pulando duas casas
+# for cont in range(1,11,2):
+#     print(cont)
+
+##Raiz quadrada de 1 até 50
+# for cont in range(1, 51):
+#     print(f"{cont:2}: {math.sqrt(cont):.3f}")
+
+##Somatório de uma range
+# soma = 0
+# num = int(input("Num: "))
+# for cont in range(1,num+1):
+#     soma = soma + cont
+# print(f"Soma: {soma}")
+
+##Metodo de Heron
+# num = float(input("Numero: "))
+# raizAprox = 1
+# for cont in range(1,100):
+#     if (abs(raizAprox - (raizAprox+(num/raizAprox))/2) < 0.001):
+#         print(f"{cont:6}: {raizAprox:.3f}")
+#         break
+#     raizAprox = (raizAprox+(num/raizAprox))/2
+#     print(f"{cont}:{raizAprox}")
+    
