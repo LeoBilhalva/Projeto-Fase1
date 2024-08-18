@@ -347,7 +347,6 @@ import string
 #     print("Computador escolheu: ", computador)
 #     if(jogador == computador):
 #         print("Deu empate!")
-
 #     elif(jogador == 1):
 #         if(computador == 2):
 #             print("Computador ganhou! ")
@@ -472,7 +471,7 @@ import string
 # num = float(input("Numero: "))
 # raizAprox = 1
 # for cont in range(1,100):
-#     if (abs(raizAprox - (raizAprox+(num/raizAprox))/2) < 0.001):
+#     if (abs(raizAprox - (raizAprox+(num/raizAprox))/2) < 0.00001):
 #         print(f"{cont:6}: {raizAprox:.3f}")
 #         break
 #     raizAprox = (raizAprox+(num/raizAprox))/2
@@ -649,15 +648,12 @@ import string
 #         Qnt3Filhos += 1
 #     if(idade<30 and sexo == "Homem"):
 #         mediaHomensIdade += 1
-
 #     if idade > homemMaisVelho and sexo == "Homem":
 #         homemMaisVelho = idade
 #         rendaHomemMaisVelho = renda
-
 #     if renda > mulherMaiorRenda and sexo == "Mulher":
 #         mulherMaiorRenda = renda
 #         idadeMulherMaiorRenda = idade
-
 # print(  "Media renda: ", mediaRenda/(cont+1),
 #       "\nMedia idade quem tem mais de 3 filhos: ", mediaIdadeQnt3filhos//Qnt3Filhos,
 #       "\nQuantidade de homens com menos de 30 anos:", mediaHomensIdade,
